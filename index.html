@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prarambh | Advanced Training & Research Centre</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+      color: #111;
+    }
+    header, footer {
+      background-color: #f4a300;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    .logo-wrapper {
+      display: inline-block;
+      background-color: #ec741b;
+      padding: 10px;
+      border-radius: 15px;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #333;
+    }
+    nav a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+      flex: 1 0 auto;
+      text-align: center;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    .container {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #f4a300;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\2022 ";
+      color: #f4a300;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      max-width: 500px;
+    }
+    input, textarea, button {
+      padding: 0.75em;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #f4a300;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: #d48800;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        padding: 0.5em;
+        font-size: 0.9em;
+      }
+      .container {
+        padding: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-wrapper">
+      <img src="logo.jpg" alt="Prarambh Logo">
+    </div>
+    <h1>Prarambh</h1>
+    <p>Advanced Training & Research Centre - Katol Road, Nagpur</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="home">
+    <h2>Welcome to Prarambh</h2>
+    <p>We are an educational and advanced training centre helping students excel in national and international competitions, board exams, and personal development.</p>
+  </div>
+
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Prarambh proudly celebrates success in:</p>
+    <ul>
+      <li>SAT, IELTS, AP Subject tests</li>
+      <li>IOQM, Queens Commonwealth Essay Competition</li>
+      <li>Japan Essay Competition, Princess Diana Award</li>
+      <li>World Peace Week Switzerland, AMO, IYMC</li>
+      <li>Biogenesis, SASMO, AMTI, Dr. Homi Bhabha Exam</li>
+      <li>Pradnya, Pravinya, ISEF, VVM</li>
+      <li>100% marks in boards, two debutant book authors</li>
+      <li>6 TEDx speakers for the third year in a row!</li>
+    </ul>
+    <p>Our mentees come from all parts of Bharat, Dubai, America, and the Philippines.</p>
+  </div>
+
+  <div class="container" id="services">
+    <h2>Current Workshop</h2>
+    <p><strong>Math Workshop</strong> for building a strong foundation (27 April - 2 May)</p>
+    <p>Concepts Covered:</p>
+    <ul>
+      <li>Number systems</li>
+      <li>Fractions & Decimals</li>
+      <li>Percentage</li>
+      <li>Algebra</li>
+      <li>Area and Perimeter</li>
+      <li>Angles and Triangles</li>
+      <li>Solving Equations</li>
+      <li>Exponents and Powers</li>
+      <li>Basics of Geometry</li>
+      <li>Geometric Proofs and Theorems</li>
+      <li>Basic Trigonometric Concepts</li>
+    </ul>
+    <p><strong>Only 10 Seats Available!</strong></p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 8999171386, 9403930841</p>
+    <p>📧 Email: prarambholympiad@gmail.com</p>
+
+    <h3>Send us a message</h3>
+    <form action="mailto:prarambholympiad@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Prarambh - All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
